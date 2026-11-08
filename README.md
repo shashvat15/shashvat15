@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Shashvat&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20Developer%20%C2%B7%20Competitive%20Programmer%20%C2%B7%20ML%20Explorer&descAlignY=60&descSize=18" alt="header" />
+<img src="https://raw.githubusercontent.com/shashvat15/shashvat15/main/assets/header.svg" alt="Kishore Shashvat - AI Engineer Intern" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+full-stack+web+apps;Solving+problems+competitively;Training+ML+models+and+shipping+them+to+the+web;Currently+levelling+up+my+backend+skills)](https://github.com/shashvat15)
-
-![Profile Views](https://komarev.com/ghpvc/?username=shashvat15&label=Profile+Views&color=0e75b6&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/shashvat15?label=Followers&style=for-the-badge&logo=github&color=24292e)
+![LeetCode](https://img.shields.io/badge/LeetCode-200%2B_Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Certified_Solutions_Architect-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![HackWell](https://img.shields.io/badge/HackWell'25-Runner--Up-2ea44f?style=for-the-badge)
 
 </div>
 
@@ -13,13 +13,84 @@
 
 ## 👋 About Me
 
-I build things for the web and sharpen my problem-solving on the side. My work spans **frontend interfaces**, **utility web apps**, and **machine learning models deployed as real, usable products**, not just notebooks that sit on a disk.
+I'm a Computer Science (AI & ML) undergraduate at **VIT Chennai** and an **AI Engineer Intern at Welldoc**. I build LLM-powered features, backend services and event-driven systems, and I care about code that holds up under real load.
 
-- 🌐 Deep into **Web Development** and **Competitive Programming**
-- 🌱 Currently learning **Backend Development**: APIs, servers, and data flow
-- 🤖 Exploring **AI/ML** through projects like crop-focused tooling and salary prediction
-- 🤝 Open to **collaborating on web development projects**
-- ⚡ Ship early, deploy on **Vercel**, iterate in public
+- 🤖 **AI Engineer Intern @ Welldoc**: building LLM-powered systems and chatbot features for healthcare tech
+- 🧠 Automated **HLD/LLD design-document generation** with LLMs, cutting manual engineering effort by roughly **30–40%**
+- 🛡️ Found and patched a **jailbreak vulnerability** in a production chatbot by adding guardrails that restrict it to relevant queries
+- 🏗️ Designing **distributed systems**: Kafka, Saga pattern, Transactional Outbox, circuit breakers
+- 🏆 **Runner-Up at HackWell'25**: 2nd place out of 140 teams
+- 🧩 **200+ problems solved on LeetCode** across arrays, DP, graphs and trees
+- 🤝 Open to collaborating on **web, backend and GenAI projects**
+
+---
+
+## 💼 Experience
+
+<table>
+<tr>
+<td width="170"><b>Jan 2026 – Present</b></td>
+<td>
+
+**AI Engineer Intern**, [Welldoc](https://www.welldoc.com/) · Bengaluru, India
+
+- Designed and built an **LLM-powered system that automates HLD/LLD document generation**, supporting the design phase of the SDLC and reducing manual effort by ~30–40%
+- Building a **native Spanish pipeline** for the Simon chatbot, adding Spanish support alongside English
+- Identified and patched a **jailbreak vulnerability** in the Simon chatbot that wasted tokens on out-of-context queries; shipped guardrails that cut unnecessary usage
+
+</td>
+</tr>
+<tr>
+<td width="170"><b>Apr 2025 – Apr 2026</b></td>
+<td>
+
+**Frontend Lead**, Nexus Club · VIT Chennai
+
+- Led frontend development of **national-level tech event platforms serving 500+ concurrent users**
+- Managed a cross-functional team of **6 developers** through weekly code reviews and React/Node.js mentorship
+- Built **reusable component libraries** that cut development time by 30% across later event platforms
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Featured Projects
+
+### 💳 PayFlow: Distributed Payment System
+
+`Java` `Spring Boot` `Apache Kafka` `PostgreSQL` `Redis` `Resilience4j` `Docker`
+
+A multi-tiered payment platform built as microservices, with Kafka for event-driven, asynchronous transaction processing.
+
+- **Saga-based coordination** with compensating actions keeps Order, Payment and Inventory services consistent
+- **Transactional Outbox + idempotency controls** prevent lost events and duplicate payments across service boundaries
+- **Redis** for idempotency and state, **PostgreSQL** as the relational store, **Resilience4j circuit breakers** for fault-tolerant service calls
+
+### 🔎 Agentic RAG Chatbot
+
+`Python` `LangChain` `Qdrant` `GROQ` `OpenAI API`
+
+- **Structure-aware chunking** that splits tables, images and text into separate, optimized chunks indexed in Qdrant
+- **3-stage retrieval**: semantic similarity, keyword matching and reranking, to improve context relevance
+- **LangChain orchestration** for multi-turn, context-aware conversations
+
+### 🩺 HackWell'25 Runner-Up: NFC-based Health Tracking
+
+`Full-stack` `ML` `LLM`
+
+Placed **2nd out of 140 teams** at Welldoc, Bangalore, with an NFC-based full-stack health tracking system. ML/LLM-powered insights were wired into backend pipelines for real-time analysis.
+
+### 📦 More from my repos
+
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **[🌾 CropAI Cloud](https://github.com/shashvat15/cropai_cloud)** | AI-driven crop and agriculture platform with a Next.js frontend and a dedicated `CropAPI` service layer | `Next.js` `TypeScript` `Tailwind CSS` | [Code](https://github.com/shashvat15/cropai_cloud) |
+| **[💬 Nexus Forum](https://github.com/shashvat15/Nexus_Forum)** | Community-style forum frontend, MIT licensed | `Vite` `TypeScript` `Tailwind CSS` | [Live](https://nexus-forum-kappa.vercel.app/) · [Code](https://github.com/shashvat15/Nexus_Forum) |
+| **[💰 Employee Salary Prediction](https://github.com/shashvat15/Employee_Salary_Prediction)** | End-to-end ML project: notebooks, a tuned Gradient Boosting model and a web app for predictions | `Python` `Jupyter` | [Code](https://github.com/shashvat15/Employee_Salary_Prediction) |
+| **[🧰 Utility Tool](https://github.com/shashvat15/Utility-Tool)** | Website bundling everyday tools for day-to-day tasks | `HTML` `CSS` `JavaScript` | [Code](https://github.com/shashvat15/Utility-Tool) |
+| **[🏅 VMedithon](https://github.com/shashvat15/vmedithon)** | Event-style web experience with bronze, silver and gold tiers | `HTML` `CSS` `JavaScript` | [Live](https://vmedithon.vercel.app) · [Code](https://github.com/shashvat15/vmedithon) |
 
 ---
 
@@ -27,83 +98,104 @@ I build things for the web and sharpen my problem-solving on the side. My work s
 
 **Languages**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Frameworks & Tooling**
+**Backend & Full-Stack**
 
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Data Science & ML**
+**Databases**
 
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Gradient Boosting](https://img.shields.io/badge/Gradient_Boosting-Model-2ea44f?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
 
-**Deployment & Workflow**
+**AI / GenAI & ML**
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+> LLMs · RAG · LangGraph · Prompt Engineering · Fine-tuning · NLP · BERT · Transformers · LSTM · FAISS
+
+**Cloud & Tools**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Engineering practices:** SDLC · HLD/LLD System Design · OOP · Design Patterns (Saga, Transactional Outbox, Circuit Breaker) · DSA · DBMS · Unit and API Testing · Code Reviews
 
 ---
 
-## 🚀 Featured Projects
+## 🏆 Achievements & Certifications
 
-| Project | What it is | Stack | Links |
-|---|---|---|---|
-| **[🌾 CropAI Cloud](https://github.com/shashvat15/cropai_cloud)** | An AI-driven crop and agriculture platform with a modern Next.js frontend and a dedicated `CropAPI` service layer | `Next.js` `TypeScript` `Tailwind CSS` `shadcn/ui` | [Code](https://github.com/shashvat15/cropai_cloud) |
-| **[💬 Nexus Forum](https://github.com/shashvat15/Nexus_Forum)** | A responsive, community-style forum frontend, MIT licensed and already forked by others | `Vite` `TypeScript` `Tailwind CSS` | [Live](https://nexus-forum-kappa.vercel.app/) · [Code](https://github.com/shashvat15/Nexus_Forum) |
-| **[💰 Employee Salary Prediction](https://github.com/shashvat15/Employee_Salary_Prediction)** | An end-to-end ML project: exploration notebooks, a tuned Gradient Boosting model, and a web app that serves predictions | `Python` `Jupyter` `Gradient Boosting` | [Code](https://github.com/shashvat15/Employee_Salary_Prediction) |
-| **[🧰 Utility Tool](https://github.com/shashvat15/Utility-Tool)** | A website bundling everyday tools that help with day-to-day tasks | `HTML` `CSS` `JavaScript` | [Code](https://github.com/shashvat15/Utility-Tool) |
-| **[🏅 VMedithon](https://github.com/shashvat15/vmedithon)** | An event-style web experience with a hero banner and bronze, silver and gold tiers | `HTML` `CSS` `JavaScript` | [Live](https://vmedithon.vercel.app) · [Code](https://github.com/shashvat15/vmedithon) |
+- 🥈 **Runner-Up, HackWell'25**: 2nd of 140 teams at Welldoc, Bangalore
+- 🧩 **200+ LeetCode problems** solved: arrays, dynamic programming, graphs, trees
+- ☁️ **AWS Certified Solutions Architect – Associate**, Amazon Web Services
+- 🤖 **Complete Generative AI Course with LangChain and Hugging Face**, Udemy
+
+## 🎓 Education
+
+**B.Tech, Computer Science and Engineering (AI & ML)**, Vellore Institute of Technology, Chennai · Aug 2023 – Jul 2027 (Expected) · CGPA 8.6 / 10
 
 ---
 
-## 📊 GitHub Stats
+## 📊 At a Glance
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=shashvat15&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shashvat15&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com/?user=shashvat15&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shashvat15&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
+<img src="https://raw.githubusercontent.com/shashvat15/shashvat15/main/assets/stats.svg" alt="Highlights: 200+ LeetCode problems, 9+ months of internships, 500+ concurrent users, 2nd of 140 teams at HackWell'25" width="100%" />
 
 </div>
 
+<!--
+OPTIONAL: live GitHub stats + contribution snake.
+1. Add .github/workflows/profile-stats.yml and run it once from the Actions tab.
+2. Then delete these comment markers to show:
+
+<div align="center">
+<img height="180" src="https://raw.githubusercontent.com/shashvat15/shashvat15/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats" />
+<img height="180" src="https://raw.githubusercontent.com/shashvat15/shashvat15/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most used languages" />
+<img src="https://raw.githubusercontent.com/shashvat15/shashvat15/output/github-snake-dark.svg" alt="Contribution snake" width="780" />
+</div>
+-->
+
 ---
 
-## 🎯 What I'm Working Toward
+## 🤝 Let's Connect
 
-- [x] Ship frontend projects with TypeScript and Tailwind
-- [x] Deploy an ML model behind a web interface
-- [ ] Get comfortable with backend development: REST APIs, databases, auth
-- [ ] Build and deploy a full-stack project end to end, frontend to backend
-- [ ] Level up on data structures and algorithms through competitive programming
-
----
-
-## 🤝 Let's Collaborate
-
-I'm looking for web development projects to contribute to and learn from. If you've got an idea, a bug, or an open-source project that needs another pair of hands, reach out.
+I'm always up for talking about LLM systems, backend architecture, or building something together.
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kishore--shashvat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kishore-shashvat)
+[![Email](https://img.shields.io/badge/Email-kishoreshashvat@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kishoreshashvat@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-shashvat15-181717?style=for-the-badge&logo=github)](https://github.com/shashvat15)
-[![Email](https://img.shields.io/badge/Email-Get_in_touch-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL_HERE)
-
-<br/>
-
-*"Make it work, make it right, make it fast."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" alt="footer" />
 
 </div>
