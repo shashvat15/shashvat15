@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Highlights: 200+ LeetCode problems, 9+ months internships, 500+ concurrent users, 2nd of 140 teams at HackWell'25">
+  <defs><style>
+    .big { font: 800 34px 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .small { font: 500 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #9fb3c8; }
+  </style></defs>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="0.20s" dur="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 24;0 0" begin="0.20s" dur="0.6s" fill="freeze"/>
+    <rect x="25" y="30" width="215" height="140" rx="14" fill="#161b22" stroke="#FFA116" stroke-opacity="0.55"/>
+    <rect x="25" y="30" width="215" height="140" rx="14" fill="#FFA116" opacity="0.06">
+      <animate attributeName="opacity" values="0.04;0.14;0.04" dur="4s" begin="0.0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="132.5" y="92" text-anchor="middle" class="big" fill="#FFA116">200+</text>
+    <rect x="112.5" y="106" width="40" height="3" rx="1.5" fill="#FFA116">
+      <animate attributeName="width" values="40;90;40" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="112.5;87.5;112.5" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="132.5" y="138" text-anchor="middle" class="small">LeetCode problems solved</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 24;0 0" begin="0.45s" dur="0.6s" fill="freeze"/>
+    <rect x="270" y="30" width="215" height="140" rx="14" fill="#161b22" stroke="#36bcf7" stroke-opacity="0.55"/>
+    <rect x="270" y="30" width="215" height="140" rx="14" fill="#36bcf7" opacity="0.06">
+      <animate attributeName="opacity" values="0.04;0.14;0.04" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="377.5" y="92" text-anchor="middle" class="big" fill="#36bcf7">9+ mo</text>
+    <rect x="357.5" y="106" width="40" height="3" rx="1.5" fill="#36bcf7">
+      <animate attributeName="width" values="40;90;40" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="357.5;332.5;357.5" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="377.5" y="138" text-anchor="middle" class="small">of engineering internships</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="0.70s" dur="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 24;0 0" begin="0.70s" dur="0.6s" fill="freeze"/>
+    <rect x="515" y="30" width="215" height="140" rx="14" fill="#161b22" stroke="#3ECF8E" stroke-opacity="0.55"/>
+    <rect x="515" y="30" width="215" height="140" rx="14" fill="#3ECF8E" opacity="0.06">
+      <animate attributeName="opacity" values="0.04;0.14;0.04" dur="4s" begin="1.0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="622.5" y="92" text-anchor="middle" class="big" fill="#3ECF8E">500+</text>
+    <rect x="602.5" y="106" width="40" height="3" rx="1.5" fill="#3ECF8E">
+      <animate attributeName="width" values="40;90;40" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="602.5;577.5;602.5" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="622.5" y="138" text-anchor="middle" class="small">concurrent users, platforms led</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="0.95s" dur="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0 24;0 0" begin="0.95s" dur="0.6s" fill="freeze"/>
+    <rect x="760" y="30" width="215" height="140" rx="14" fill="#161b22" stroke="#c792ea" stroke-opacity="0.55"/>
+    <rect x="760" y="30" width="215" height="140" rx="14" fill="#c792ea" opacity="0.06">
+      <animate attributeName="opacity" values="0.04;0.14;0.04" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="867.5" y="92" text-anchor="middle" class="big" fill="#c792ea">2nd / 140</text>
+    <rect x="847.5" y="106" width="40" height="3" rx="1.5" fill="#c792ea">
+      <animate attributeName="width" values="40;90;40" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="847.5;822.5;847.5" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+    </rect>
+    <text x="867.5" y="138" text-anchor="middle" class="small">teams at HackWell'25</text>
+  </g>
+</svg>
